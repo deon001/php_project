@@ -1,0 +1,56 @@
+body
+{
+  background-color: #ccffff;
+}
+#Navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bfbfbf;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #00bfff;
+}
+h1 {font-size: 60px;
+  text-align: center;
+  font-family:'Bauhaus 93', Times, serif;
+}
+h4 {
+  margin-left: 80px;
+  font-family: "Verdana", Times, serif;
+}
+h3 {
+
+  font-family: "Verdana", serif;
+  color: #ff1a1a;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+img {
+  float: right;
+}
